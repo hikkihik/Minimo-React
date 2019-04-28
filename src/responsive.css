@@ -1,0 +1,71 @@
+/* Responsive Styles */
+@media (max-width: 1200px) {
+	/* Header */
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		padding-left: 5.3rem;
+	}
+}
+
+@media (max-width: 768px) {
+	/* Header */
+	header {
+		margin-top: 0;
+	}
+
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		padding-left: 0;
+		text-align: center!important;
+	}
+}
+
+@media (max-width: 576px) {
+	:root {
+		--font-size-title: 2.7rem;
+	}
+	/* Header */
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		font-size: 1.6rem;
+	}
+
+	/* Sidebar */
+	.sidebar {
+		margin-top: 10rem;
+	}
+
+	/* Rows */
+	.row-post {
+		margin-top: 10rem;
+	}
+
+	.row-post .row-post__item {
+		margin-top: 10rem;
+	}
+
+	/* News letter */
+	.news-letter .form-control {
+		width: 90%;
+	}
+
+	/* Load more */
+	.load-more .btn {
+		padding: 1.4rem 2.5rem;
+	}
+
+	.load-more .btn-outline-secondary {
+		font-size: 2rem;
+	}
+
+	/* You may also like */
+	.may-like .may-like__post .may-like__item {
+		margin-top: 5rem;
+	}
+
+	/* Footer */
+	footer .footer__right {
+		float: none;
+	}
+
+	footer .footer__right a:nth-of-type(1) {
+		padding-left: 0;
+	}
+}
